@@ -1,0 +1,313 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: cooper black;
+    color: #dfb747;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #dc4444;
+    z-index: 1;
+    border-bottom:5px solid #dfb747;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #463c30;
+}
+
+h2 {
+    font-family: 'cooper black';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #463c30;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #dfb747;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #3f72af;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+/*----------Awal List Product----------*/
+
+body {
+  line-height: 1;
+  margin: 0;
+  font: inherit;
+}
+
+.product-wrapping {
+  width: 100%;
+}
+
+.product-wrapping .heading-product {
+  margin: 0 15% 0 2%;
+  font: inherit;
+  font-family: 'Noto Serif', serif;
+  font-family: 'Sora', sans-serif;
+  padding: 3% 0;
+  text-align: center;
+  font-size: 225%;
+  border-bottom: 2px solid black;
+  box-sizing: border-box;
+}
+
+.product-wrapping .list-product {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.product-wrapping .list-product .product.awal {
+  margin-left: 0 10%;
+}
+
+.product-wrapping .list-product .product {
+  width: 27%;
+  margin-top: 3%;
+  margin-bottom: 7%;
+  border-radius: 3%;
+  text-align: center;
+  background-color: #dc4444;
+}
+
+.product-wrapping .list-product .product.akhir {
+  margin-right: 7%;
+}
+
+.product-wrapping .list-product .product .product-name {
+  font-family: 'Sora', sans-serif;
+  width: 85%;
+  padding: 4% 0 4% 3%;
+  font-size: 150%;
+  text-align: center;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.93);
+  border-bottom: 2px solid #dfb747;
+}
+
+.product-wrapping .list-product .product img {
+  margin-top: 5%;
+  margin-bottom: 12%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 2%;
+}
+
+.product-wrapping .list-product .product .btn-shop {
+  background-color: #dfb747;
+  color: rgba(0, 0, 0, 0.9);
+  display: inline-block;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  width: 60%;
+  font-size: 130%;
+  font-weight: bold;
+  font-family: serif;
+  margin-bottom: 20%;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 7px #463c30;
+}
+
+.product-wrapping .list-product .product .btn-shop:hover {
+  background-color: rgba(179, 35, 18, 1);
+  color: #fff;
+}
+
+.product-wrapping .list-product .product .btn-shop:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+/*----------Akhir List Product----------*/
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+#contact {
+    background: #dddfb7;
+    padding:50px 0px 50px 0px;
+}
+.testimonials-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-testimonials {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-testimonials img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'arial black';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #463c30;
+    width: 100%;
+    line-height: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
